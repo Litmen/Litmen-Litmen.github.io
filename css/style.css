@@ -1,0 +1,44 @@
+body{
+	font-size: 24pt;	
+}
+p{
+	color: SteelBlue;
+	margin: 30px;
+	font-family: 'Lobster', cursive;
+
+}
+span{
+	background-color: red;
+	font-family: 'Steamy';
+}
+@font-face{
+	font-family: 'Steamy';
+	src:url('../fonts/Steamy.woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+h3{
+	color:hotpink;
+	font-size: 36pt;
+	font-family: 'Russo One', sans-serif;
+}
+div{
+	width: 70%;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color:tomato;
+	display: inline-block;
+	margin: 20px 0;
+	border-bottom: 2px solid transparent
+
+}
+a:hover{
+	border-bottom-color: #204051;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
