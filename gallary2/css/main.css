@@ -1,0 +1,41 @@
+.img-box{
+	column-count: 4;
+	column-gap: 3px;
+	width: 80%;
+	max-width: 1400px;
+	margin: auto; 
+} 
+   .image{
+   	max-width: 100%;
+   	display: block;
+   }
+   .img-wrapper {
+   	display: block;
+   	opacity:0.8;
+   	transition: 0.4s;
+   }
+   .img-wrapper + .img-wrapper {
+   	margin:3px 0;
+   }
+   .img-wrapper:hover {
+   	opacity: 1;
+   	filter: saturate(2000%);
+   }
+   @media all and (max-height: 1024px) {
+      .img-box{
+         width: 90%;
+         column-count: 3;
+      }
+   }
+    @media all and (max-height: 768px) {
+      .img-box{
+         width: 100%;
+         column-count: 2;
+      }
+   }
+    @media all and (max-height: px) {
+      .img-box{
+         width: %;
+         column-cont: ;
+      }
+   }
