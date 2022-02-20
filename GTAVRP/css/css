@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body,header{
+	height: 100%;
+}
+html{
+	font-size:  10px;
+}
+.nev-wrapper{
+	position: absolute;
+	height: 120px;
+	display: flex;
+	padding: 0 100px;
+}
+.topnav{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
+	display: inline;
+	font-size: 1.8rem;
+
+}
+.logo{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
